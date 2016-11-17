@@ -1,3 +1,28 @@
 == README
 
 Wednesday's Goals: Get through 239 - 267.
+
+
+////
+
+{
+  "Id": "Policy1479332744064",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1479332728921",
+      "Action": [
+        "s3:GetObject"
+      ],
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::saas-app-0222/*",
+      "Principal": {
+        "AWS": [
+         "*"
+        ]
+      }
+    }
+  ]
+}
+
+/////
